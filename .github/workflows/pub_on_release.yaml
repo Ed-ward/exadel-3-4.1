@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿name: Publish on Docker Hub and Deploy
+=======
+name: Publish on Docker Hub and Deploy
+>>>>>>> 39d24d4084b751bc60f8069846e00b7ec1024643
 
 on:
   release:

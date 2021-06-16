@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿name: Run tests on any Push event
+=======
+name: Run tests on any Push event
+>>>>>>> 39d24d4084b751bc60f8069846e00b7ec1024643
 # Запуск при любом push евенте в любой ветке, за исключением релизных тэгов.
 # Они будт тестироваться перед сборкой
 on:

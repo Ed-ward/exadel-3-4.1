@@ -1,4 +1,4 @@
-name: Publish on Docker Hub and Deploy
+﻿name: Publish on Docker Hub and Deploy
 
 on:
   release:
@@ -31,6 +31,7 @@ jobs:
 #    needs: [run_tests]
     runs-on: [ubuntu-latest]
     env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
       LOGIN: ${{ secrets.DOCKER_LOGIN }}
       NAME: ${{ secrets.DOCKER_NAME }}
     steps:
